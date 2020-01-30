@@ -1,0 +1,161 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dddddd;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.header{
+    margin-bottom: 30px;
+}
+
+nav .logo {
+    background-color: #3E806C;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    padding: 15px 0;
+    
+}
+
+.nav-link {
+   padding: 20px 15px 20px 15px;
+}
+
+.nav {
+    background-color: #3E806C;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.bin {
+    background-color: #ffffff;
+    height: 800px;
+    padding: 0 15px;
+    margin: 0 20px 0 20px;
+    max-width: 728px;
+}
+
+h2 {
+    color: #3E806C;
+    padding: 20px 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+hr {
+    margin: 0 0 15px 0;
+    border-top: solid darkgrey 2px;
+}
+
+h6
+ {
+    border-top: solid 4px #3E806C;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgb(100, 100, 100);
+    color: #ffffff9a;
+    margin-top: auto;
+}
+
+img {
+    margin: 15px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dddddd;
+    width: 100%;
+    height: 100%;
+}
+
+nav .logo {
+    background-color: #3E806C;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+.nav {
+    background-color: #ffffff;
+    color: darkgrey;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: darkgrey;
+    font-size: 16px;
+}
+
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.bin {
+    height: 1600px;
+    width: 600px;
+    background-color: #ffffff;
+    padding: 0 15px;
+    margin: 0 0 0 20px;
+}
+
+h2 {
+    color: #3E806C;
+    padding: 20px 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+hr {
+    margin: 0 0 15px 0;
+    border-top: solid darkgrey 2px;
+}
+
+h6 {
+    border-top: solid 4px #3E806C;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: rgb(100, 100, 100);
+    color: #ffffff9a;
+    margin-top: auto;
+}
+
+img {
+    margin: 15px 0 15px 120px;
+}
+
+}
